@@ -1,0 +1,143 @@
+body {
+	font-family: verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0px;
+}
+
+.online_services {
+	font-size: 1em;
+	height: 50vh;
+	padding: 15vh;
+	background-color: #c5d9e2;
+	border-bottom: 2px solid black;
+}
+
+.online_services ul {
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+}
+
+.online_services ul li {
+	color: white;
+	padding: 2%;
+	margin: 5px;
+	background-color: #004156;
+	display: inline-block;
+	width: 25%;
+	/* //border-top-right-radius: 25px; */
+	border-bottom: 2px solid black;
+	transition-duration: 0.4s;
+}
+
+.online_services ul li:hover {
+	background-color: #002d3b;
+}
+
+.online_services ul a:hover {
+	cursor: pointer;
+}
+
+.online_services a {
+	color: white;
+	text-decoration: none;
+}
+
+.online_services h4 {
+	margin: 5px;
+	text-align: center;
+}
+
+.ebanking {
+	position: relative;
+	display: inline-block;
+}
+
+.ebanking a {
+	display: block;
+}
+
+.ebanking_options {
+	position: absolute;
+	display: none;
+	background-color: #c5d9e2;
+	width: 180%;
+	border: 1px solid black;
+	box-shadow: 2px 2px 40px rgb(45, 71, 112);
+	z-index: 1;
+}
+
+.ebanking_options ul {
+	cursor: auto;
+}
+
+.ebanking_options ul a {
+	cursor: pointer;
+}
+.ebanking_options ul li {
+	padding: 7%;
+	width: 72%;
+	color: white;
+	background-color: #004156;
+	display: inline-block;
+	/* //border-top-right-radius: 25px; */
+	border-bottom: 2px solid black;
+}
+
+.ebanking:hover .ebanking_options {
+	display: block;
+}
+
+.about {
+	clear: both;
+	width: 90%;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	line-height: 25px;
+	margin: 0px auto;
+	margin-top: 30px;
+	text-align: left;
+	background-color: #f5f5f5;
+	padding: 30px;
+	box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.6);
+	/* //border-radius: 15px; */
+}
+.about span {
+	color: #2352a3;
+	/* ./font-size: 22px; */
+	font-weight: 600;
+}
+.about p {
+	font-size: 14px;
+	font-size: 0.87em;
+	color: #2352a3;
+	text-align: justify;
+}
+.disclaimer {
+	width: 90%;
+
+	margin: 0px auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	background-color: #c5d9e2;
+	padding: 30px;
+	box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.6);
+	/* //  border-radius: 15px; */
+}
+
+.disclaimer span {
+	color: #2352a3;
+	/* //font-size: 18px; */
+	font-weight: 600;
+}
+.disclaimer p {
+	font-size: 11px;
+	color: #2c71b0;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	line-height: 25px;
+	text-align: justify;
+	background-color: #f5f5f5;
+	box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	margin: 5px;
+	padding: 10px;
+}
